@@ -280,9 +280,9 @@ const SettingsScreen = () => {
                 rightIcon={item.rightIcon}
                 routeName={item.routeName}
                 onPress={() => {
-                  if (item.routeName === 'ReadDocs') {
-                    openURL({ URL: HELP_URL });
-                  }
+                  // if (item.routeName === 'ReadDocs') {
+                  //   openURL({ URL: HELP_URL });
+                  // }
                   if (item.routeName === 'ChatWithUs') {
                     AnalyticsHelper.track(ACCOUNT_EVENTS.OPEN_SUPPORT);
                     toggleWidget(true);

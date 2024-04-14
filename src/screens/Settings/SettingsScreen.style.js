@@ -38,7 +38,7 @@ export default theme => {
     },
     aboutImage: {
       width: deviceWidth * 0.8,
-      height: deviceWidth * 0.134,
+      height: deviceWidth * 0.334,
       aspectRatio: 2,
       resizeMode: 'contain',
     },

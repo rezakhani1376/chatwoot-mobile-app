@@ -16,7 +16,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "Chatwoot";
+    return "Welink";
   }
 
   @Override

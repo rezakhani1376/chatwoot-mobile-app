@@ -70,15 +70,12 @@ def enableProguardInReleaseBuilds = true
 def jscFlavor = 'org.webkit:android-jsc:+'
 
 android {
-    ndkVersion rootProject.ext.ndkVersion
-
-    compileSdkVersion rootProject.ext.compileSdkVersion
-
+    ndkVersion ndkVersion
     namespace "com.chatwoot.app"
     defaultConfig {
         applicationId "com.chatwoot.app"
         minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        targetSdkVersion targetSdkVersion
         versionCode 5180014
         versionName "1.10.26"
     }
@@ -114,6 +111,8 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
     }
+    buildToolsVersion buildToolsVersion
+    compileSdk 34
 }
 
 dependencies {

@@ -27,12 +27,12 @@ const preferencesSections = [
 ];
 
 const supportSection = [
-  {
-    leftIcon: 'book-open-globe-outline',
-    title: 'Read Docs',
-    rightIcon: 'open-outline',
-    routeName: 'ReadDocs',
-  },
+  // {
+  //   leftIcon: 'book-open-globe-outline',
+  //   title: 'Read Docs',
+  //   rightIcon: 'open-outline',
+  //   routeName: 'ReadDocs',
+  // },
   {
     leftIcon: 'chat-help-outline',
     title: 'Chat with Us',
